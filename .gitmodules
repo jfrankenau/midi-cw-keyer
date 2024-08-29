@@ -1,0 +1,3 @@
+[submodule "arduino/lib/DigisparkMIDI"]
+	path = arduino/lib/DigisparkMIDI
+	url = https://github.com/heartscrytech/DigisparkMIDI
