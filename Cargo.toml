@@ -12,8 +12,8 @@ strip = true
 [dependencies]
 eyre = { version = "0.6", default-features = false, features = ["auto-install"] }
 lexopt = "0.3"
-midir = "0.9"
+midir = "0.10"
 ringbuffer = "0.15"
-rodio = { version = "0.17", default-features = false }
+rodio = { version = "0.19", default-features = false }
 tokio = { version = "1.35", features = ["macros", "rt", "sync", "time"] }
 wmidi = "4.0"
