@@ -71,7 +71,7 @@ async fn main() -> Result<()> {
     let args = parse_args()?;
 
     let midi = MidiInput::new("midi-cw-keyer")?;
-    let port_name = "MidiStomp MIDI 1";
+    let port_name = "MidiStomp";
     let midi_port = midi
         .ports()
         .into_iter()
